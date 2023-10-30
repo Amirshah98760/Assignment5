@@ -1,0 +1,43 @@
+/* Last Rule  */
+/* p{
+color: red;
+}
+
+p{
+    color: blue;
+}
+p{
+    color: green;
+} */
+
+/* Specificity  */
+/* *{
+    color: red;
+}
+p{
+    color: green;
+}
+p#intro{
+    color: blue;
+} */
+
+/* Important  */
+/* *{
+    color: red;
+}
+p{
+    color: green !important;
+}
+p{
+    color: blue;
+} */
+/* Inheritance in css  */
+body{
+    border: 1px solid red;
+    padding: 10px;
+}
+.page{
+    color: red;
+    padding: inherit;
+    border: inherit;
+}
